@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body, html {
+  background-image: url(../Projeto2.png);  
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .prevTempo {
+    
+    position: absolute;
+    width: 15rem; /* largura desejada */
+    height: 15rem; /* altura desejada */
+    border: 1px solid #000;
+    border-radius: 2.5rem;
+    text-align: center;
+    padding: 3rem;
+    text-align: left;
+    background-color: #00000096;
+    color: white;
+  }
+
+  .prevTempo button{
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    
+    
+  }
+
+  .prevTempo input{
+    border-radius: 1rem;
+    padding: 0.3rem;
+    
+  }
+
+  .prevTempo h4{
+    margin-top: 1rem;
+
+  }
+
+  .tempo{
+    text-transform: capitalize;
+  }
+
+  
+  .humidade{
+    display: flex;
+  }
+
+  
+
+
+  
